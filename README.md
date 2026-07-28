@@ -164,9 +164,8 @@ Iterative policy evaluation was implemented successfully using the Gymnasium Fro
 
 ## Inference
 
-```
 The Policy Evaluation algorithm was successfully implemented on the FrozenLake environment. The algorithm iteratively applied the Bellman Expectation Equation to compute the state-value function for a given policy. The value function converged after a finite number of iterations, indicating that the algorithm correctly estimated the expected return for every state under the fixed policy. The resulting state-value table shows that states closer to the goal have higher values, while states leading to holes or terminal conditions have lower values. Thus, the experiment demonstrates how Policy Evaluation estimates the long-term expected reward of each state without changing the policy, serving as a fundamental step in Dynamic Programming and Reinforcement Learning.
-```
+
 
 
 
